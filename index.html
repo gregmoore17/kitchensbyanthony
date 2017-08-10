@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- InstanceBegin template="/Templates/Template2.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<!-- #BeginEditable "doctitle" -->
+
+<title>Acquaint Consultancy</title>
+
+<!-- #EndEditable -->
+
+<meta name="description" content="Every detail that you would like to know from cities to culture"/>
+
+<meta name="keywords" content="cities, population, football, food, culture"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="javascript/bootstrap.min.js"></script>
+
+<!--<script src="javascript/slideshow.js"></script>
+-->
+
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css"/>
+
+<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+
+</head>
+
+
+<body>
+
+
+<div class="contactline">
+<div class="container">
+<div class="col-xs-12 col-md-4">
+Tel No. +44 (0) 1244 341000</div>
+	<div class="col-xs-12 col-md-5">German kitchens designed to perfection</div>        <div class="col-xs-12 col-md-3">info@kitchensbyanthony.co.uk</div>
+ 
+</div>
+</div>
+<nav class="navbar navbar-static-top">
+  
+<div class="container">
+    
+<div class="navbar-header">
+      
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+ aria-expanded="false" aria-controls="navbar"> 
+<span class="sr-only">Toggle navigation</span> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+</button>
+      
+<a class="navbar-brand" href="index.html"> 
+<img src="images/logo.png" alt="Kitchens by Anthony logo" class="img-responsive"> </a> </div>
+    
+<div id="navbar" class="navbar-collapse collapse">
+      
+<ul class="nav navbar-nav navbar-right">
+        
+<li><a href="services.html">Services</a></li>
+        
+<li><a href="recommendations.html">Recommendations</a></li>
+   
+<li><a href="products.html">Products</a></li>     
+<li><a href="guides.html">Guides</a></li>
+        
+<li><a href="contact.html">Contact</a></li>
+      
+</ul>
+    
+</div>
+  
+</div>
+
+</nav>
+
+<div class="row"> 
+<!-- #BeginEditable "container" -->
+  
+<div class="slideshow-container">
+    
+<div class="mySlides fade"> <img src="images/slider1.png" style="width:100%"> </div>
+    
+<div class="mySlides fade"> <img src="images/BEAPM.png" style="width:100%"> </div>
+    
+<div class="mySlides fade"> <img src="images/CSASMS.png" style="width:100%"> </div>
+    
+<div class="mySlides fade"> <img src="images/CCAMA.png" style="width:100%"> </div>
+    
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+
+  
+<script>
+
+var slideIndex = 1;
+
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+</script> 
+  
+<div class="paragraph">
+<div class="col-xs-12 col-md-4 paragraph">
+<p>We offer a comprehensive service, taking care of the entire design and installation processes.</p></div> 
+<div class="col-xs-12 col-md-4">
+<p>To ensure that our German kitchens are designed to achieve our customers vision, we  provide a FREE consultation that identifies all of their preferences.</p></div>
+ 
+<div class="col-xs-12 col-md-4">
+<p>Here at Kitchens By Anthony we believe that having your kitchen designed and installed should be enjoyable, which is why we take our Free Planning very seriously.</p></div>
+</div>
+<!-- #EndEditable --> 
+</div>
+
+<div class="neffpara">
+<div class="container">
+<div class="col-xs-12 col-md-3"><a class="nefflogo" href="http://www.neff-home.com/uk/" target="_blank"><img src="images/neff.png" alt="Neff master partner" class="img-responsive"></a></div><div class="col-xs-12 col-md-8">Being a Neff master partner helps us create the best kitchen experience.<br>As part of this we are able to sell appliances sepearately, which also includes Bosch and Siemens.</div>
+ 
+</div>
+</div>
+<footer>
+  <div class="row">
+    <div class="container">
+      <div class="col-xs-12 col-md-4">
+        	<p><p>&copy; Kitchens by <br>Anthony 2017</p>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <p class="footer-heading">Contact</p>
+        <p>Tel No. +44 (0) 1244 341000</p>
+        <p><a href="mailto:info@kitchensbyanthony.co.uk" target="_top">info@kitchensbyanthony.co.uk</a></p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <p class="footer-heading">Social</p>
+        <div class="col-xs-offset-3 col-xs-3"><a href="https://www.facebook.com/kitchensbyanthony/" class="facebook" title="Facebook"></a></div>
+        <div class="col-xs-offset-0 col-xs-3 "><a href="https://twitter.com/kitchensbyant" class="twitter" title="Twitter"></a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<!-- InstanceEnd --></html>

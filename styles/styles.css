@@ -1,0 +1,250 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 15px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	background-color: black;
+	color: white;	line-height: 24px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;	text-align: center;
+}
+
+h2 {
+	font-size: 22px; line-height: 180%;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {	font-size: 17px; line-height: 150%; font-weight: bold; text-align: center; padding: 50px 0px 0px 0px;}
+h5 {	font-size: 16px; line-height: 130%; text-align: center; padding: 0px 0px 30px 0px;}
+.contactline {	background-color: #E6D854;	width: 100%;	height: 70px;	padding: 20px 0px 0px 0px;	color: black;}
+.contactline a {	color: black;}
+.navbar {
+	height: 170px;
+	margin-bottom: 10px;
+}
+
+.navbar li, .navbar-brand {
+	height: 70px;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.navbar-brand img {
+	max-height: 150px;	padding: 5px;
+}
+
+.nav>li>a {
+	padding: 10px 25px;
+}
+
+.navbar li a {
+	line-height: 70px;
+	text-transform: uppercase; font-size: 15px; padding: 40px 0px 0px 30px;
+}
+
+.navbar-toggle {
+	background-color: #F3BF16;
+	margin-top: 33px;
+	color: #E6D854;}
+
+.navbar-toggle:hover {
+	background-color: black;
+}
+
+.navbar-toggle .icon-bar {
+	border: 1px solid #fff;
+}
+
+.nav li a:hover {
+	background-color: transparent;
+}
+.collapsing li, .collapse.in li {
+	height: 50px;	background-color: black;}
+
+.collapsing li a, .collapse.in li a {
+	line-height: 30px;
+	background-color: black;}
+
+.collapsing .nav, .collapse.in .nav {
+	background-color: black;
+}
+
+.collapsed, tab {	background-color: black;}
+a:link, a, visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+a:link {
+	color: #E6D854;
+}
+
+a:visited {
+	color: #F3BF16;
+}
+
+a:hover {
+	color: #B7B2A1;
+}
+
+.btn-default {
+	background-color: #E6D854;
+;
+	border-color: #95A8D2;
+	color: white;
+}
+
+.btn-default:hover {
+	background-color: black;
+	border-color: #4573A5;
+	color: #fff;
+}
+
+.twitter {
+	width: 60px;
+	height: 56px;
+	display: block;
+	background: transparent url('../images/twitter_black2.png') center top no-repeat;
+}
+
+.twitter:hover {
+	background-image: url('../images/twitter_black2.png');
+}
+
+.facebook {
+	width: 60px;
+	height: 56px;
+	display: block;
+	background: transparent url('../images/fb_black2.png') center top no-repeat;
+}
+
+.facebook:hover {
+	background-image: url('../images/fb_black2.png');
+}
+
+.googleplus {
+	width: 60px;
+	height: 56px;
+	display: block;
+	background: transparent url('../images/google_plus.png') center top no-repeat;
+}
+
+.googleplus:hover {
+	background-image: url('../images/google_plus.png');
+}
+
+.linkedin {
+	width: 60px;
+	height: 56px;
+	display: block;
+	background: transparent url('../images/linkedin.png') center top no-repeat;
+}
+
+.linkedin:hover {
+	background-image: url('../images/linkedin.png');
+}
+
+.imgrec {	padding: 20px 0px 20px 0px;}
+.fbfeed {	float: center;}
+.contact-form {
+	margin-bottom: 20px;
+}
+
+.map {
+	width: 100%;
+}
+
+
+.panel-group, .panel, .panel-default, .panel-collapse, .panel-body, .panel-title {
+	background-color: black;	border-color: black;}
+.panel-heading	{	background-color: black; padding: 0px 0px 0px 0px;	border-color: black;}
+footer {
+	padding: 30px;
+	margin-top: 0px;
+	background-color: #D8D089
+;	color: black}
+
+footer .footer-heading {
+	font-weight: bold;
+}
+
+footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
+	color: black
+;
+	text-align: center;
+}
+
+
+.slideshow-container {
+	max-width: 99%;
+		position: relative;
+	margin: auto;	border-radius: 10px;
+}
+
+
+.mySlides {
+	display: none;
+}
+
+
+.mySlides.fade {
+	opacity: 1;
+}
+
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -20px;
+	padding: 15px;
+	color: grey;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: grey;
+}
+
+.dot {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #a8a8a8;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #727272;
+}
+.form-group {	padding: 20px 0px 20px 0px;	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size: 18px;}
+.g-recaptcha { padding: 20px 0px 20px 0px;}
+.nefflogo {	position: relative; left: 38%;}
+.message {	padding: 70px 0px 70px 0px;}
+.contact {	padding: 20px 0px 20px 0px;}
+.productlogo	{	padding: 20px 65px 10px 65px;}
+.neffpara	{	background-color: grey;		width: 100%;	height: 90px;	padding: 20px 0px 20px 0px;	color: black;	text-align: center;}
+.paragraph	{	0px 0px 0xp 20px;}
