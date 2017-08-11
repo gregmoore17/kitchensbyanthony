@@ -246,5 +246,6 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 .message {	padding: 70px 0px 70px 0px;}
 .contact {	padding: 20px 0px 20px 0px;}
 .productlogo	{	padding: 20px 65px 10px 65px;}
-.neffpara	{	background-color: grey;		width: 100%;	height: 90px;	padding: 20px 0px 20px 0px;	color: black;	text-align: center;}
-.paragraph	{	0px 0px 0xp 20px;}
+.neffpara	{	background-color: grey;		width: 100%;	height: 250px;	padding: 20px 20px 50px 20px;	color: black;	text-align: center;}
+.three		{	padding: 20px 10px 20px 10px;}
+.gallery	{	margin: 20px 0px 20px 0px;	border-bottom: gold solid 1px;	padding: 20px 0px 20px 0px;	text-align: center;}
