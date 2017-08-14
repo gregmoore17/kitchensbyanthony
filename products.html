@@ -40,7 +40,7 @@
 <div class="container">
 <div class="col-xs-12 col-md-4">
 Tel No. +44 (0) 1244 341000</div>
-	<div class="col-xs-12 col-md-5">German kitchens designed to perfection</div>        <div class="col-xs-12 col-md-3">info@kitchensbyanthony.co.uk</div>
+	<div class="col-xs-12 col-md-5">German Appliances, Kitchens and much more</div>        <div class="col-xs-12 col-md-3">info@kitchensbyanthony.co.uk</div>
  
 </div>
 </div>
@@ -89,37 +89,227 @@ Tel No. +44 (0) 1244 341000</div>
 	   </div>
 
 <p class="gallery">At Kitchens by Anthony, we have a wide selection of kitchens, appliances and solutions that fit any kind of personality.
-<div class="col-xs-12 col-md-3 gallery">Contempary kitchens
-</div>
+<div class="col-xs-12 col-md-3 gallery"><a href="#ck">Contempary kitchens
+</a></div>
 	
-<div class="col-xs-12 col-md-2 gallery">Traditional kitchens</div>        
-<div class="col-xs-12 col-md-2 gallery">Appliances</div>
+<div class="col-xs-12 col-md-2 gallery"><a href="#tk">Traditional kitchens</a></div>        
+<div class="col-xs-12 col-md-2 gallery"><a href="#a">Appliances</a></div>
 
-<div class="col-xs-12 col-md-2 gallery">Kitchen solutions</div>
+<div class="col-xs-12 col-md-2 gallery"><a href="#ks">Kitchen solutions</a></div>
 
-<div class="col-xs-12 col-md-3 gallery">Product brands</div>
-
-<div class="col-xs-12 col-md-12 gallery">
-  <a target="_blank" href="">
-    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  <div class="desc">Contempary Kitchens</div>
-</div>
+<div class="col-xs-12 col-md-3 gallery"><a href="#pr">Product brands</a></div>
 
 <div class="col-xs-12 col-md-12 gallery">
-  <a target="_blank" href="">
-    <img src="img_forest.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Traditional Kitchens</div>
+
+<div class="w3-container">
+<h3 id="ck">Contempary Kitchens</h3>  
 </div>
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides slideborder" src="images/slider1.png" style="width:100%">
+  <img class="mySlides slideborder" src="images/CCAMA.png" style="width:100%">
+  <img class="mySlides slideborder" src="images/BEAPM.png" style="width:100%">
+
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <img class="demo w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/slider1.png" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/CCAMA.png" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/BEAPM.png" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+</div>
+<div class="col-xs-12 col-md-12 gallery">
+
+<div class="w3-container">
+<h3 id="tk">Traditional Kitchens</h3> 
+</div>
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides1 slideborder" src="images/slider1.png" style="width:100%">
+  <img class="mySlides1 slideborder" src="images/CCAMA.png" style="width:100%">
+  <img class="mySlides1 slideborder" src="images/BEAPM.png" style="width:100%">
+
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <img class="demo1 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/slider1.png" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo1 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/CCAMA.png" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo1 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/BEAPM.png" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo1");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
 
 <div class="col-xs-12 col-md-12 gallery">
-  <a target="_blank" href="">
-    <img src="img_forest.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Kitchen Solutions</div>
+<div class="w3-container">
+<h3 id="a">Appliances</h3>
 </div>
 
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides2 slideborder" src="images/slider1.png" style="width:100%">
+  <img class="mySlides2 slideborder" src="images/CCAMA.png" style="width:100%">
+  <img class="mySlides2 slideborder" src="images/BEAPM.png" style="width:100%">
+
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <img class="demo2 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/slider1.png" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo2 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/CCAMA.png" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo2 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/BEAPM.png" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo2");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+<div class="col-xs-12 col-md-12 gallery">
+<div class="w3-container">
+<h3 id="ks">Kitchen solutions</h3>
+</div>
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides3 slideborder" src="images/slider1.png" style="width:100%">
+  <img class="mySlides3 slideborder" src="images/CCAMA.png" style="width:100%">
+  <img class="mySlides3 slideborder" src="images/BEAPM.png" style="width:100%">
+
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <img class="demo3 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/slider1.png" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo3 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/CCAMA.png" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img class="demo3 w3-opacity w3-hover-opacity-off slideborder thumbnail" src="images/BEAPM.png" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  var dots = document.getElementsByClassName("demo3");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+<div class="col-xs-12 col-md-12 gallery">
+<h3 id="pb">Product brands</h3>
 <div class="col-xs-12 col-md-4 productlogo">
 <p><a href="http://www.blanco-germany.com/uk/uk/home.html" target="_blank"><img src="images/blanco logo.gif" alt="Blanco logo" class="img-responsive"></a></p><p>Blanco sinks and taps</p></div> 
 <div class="col-xs-12 col-md-4 productlogo">
@@ -131,11 +321,14 @@ Tel No. +44 (0) 1244 341000</div>
 <div class="col-xs-12 col-md-4 productlogo">
 <p><a href="http://www.neff-home.com/uk/" target="_blank"><img src="images/bosch logo.png" alt="Bosch logo" class="img-responsive"></a></p>Bosch appliances</p></div>
 <div class="col-xs-12 col-md-4 productlogo">
-<p><a href="http://www.faberhoods.co.uk/" target="_blank"><img src="images/siemens logo.png" alt="Siemens logo" class="img-responsive"></a></p><p>Siemens cooker hoods</p></div>
+<p><a href="http://www.faberhoods.co.uk/" target="_blank"><img src="images/siemens logo.png" alt="Siemens logo" class="img-responsive"></a></p><p>Siemens appliances</p></div>
 </div>
-	</div>
+	
+</div>
   
-  <!-- #EndEditable --> 
+ 
+<!-- #EndEditable --> 
+
 </div>
 
 <footer>
